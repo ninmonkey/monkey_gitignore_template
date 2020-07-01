@@ -1,7 +1,10 @@
 # monkey_gitignore_template
+
 basic .gitignore templates
 
 ## extensive .gitignores
+
+- [python](https://github.com/github/gitignore/blob/master/Python.gitignore)
 - [node.js](https://github.com/github/gitignore/blob/master/Node.gitignore)
 
 ## See also
