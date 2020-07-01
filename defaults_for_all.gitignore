@@ -1,0 +1,26 @@
+# decent defaults for any project
+*.lnk
+*.exe
+*.zip
+*.log
+**/logs?/
+
+# compiled code
+*.py[co]
+*.min.js
+*.min.css
+*.pdf
+*.log
+
+# temp files:
+## Excel
+~$*.xlsx
+## vim
+*.swp 
+
+# word, excel and office filetypes: <https://docs.microsoft.com/en-us/deployoffice/compat/office-file-format-reference>
+## Word
+*.doc
+*.doc[mx]
+
+## Excel
