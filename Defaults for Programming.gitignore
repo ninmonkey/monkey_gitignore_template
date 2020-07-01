@@ -1,0 +1,36 @@
+*.csv 
+*.exe
+*.lnk
+*.log
+*.zip
+
+log/
+logs/
+config/
+config.json
+
+# compiled code
+*.bin
+*.dll
+*.exe
+*.js.map
+*.min.css
+*.min.js
+*.py[co]
+
+# cache or virtual environments
+
+.mypy_cache/
+__pycache__/
+/venv
+node_modules/
+.npm
+.cache/
+.env
+.env.test
+.ipython/
+
+# auth related
+**/managed-keys*
+**/*.signed*
+.oauth*
