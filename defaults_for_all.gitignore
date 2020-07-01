@@ -1,26 +1,73 @@
-# decent defaults for any project
-*.lnk
+# [1] decent defaults for any project
+*.csv 
 *.exe
+*.htm
+*.html
+*.lnk
+*.log
 *.zip
-*.log
-**/logs?/
 
-# compiled code
-*.py[co]
-*.min.js
+log/
+logs/
+
+# [2] compiled code
+*.bin
+*.csv
+*.dll
+*.exe
+*.js.map
+*.log
 *.min.css
+*.min.js
 *.pdf
-*.log
+*.pdf
+*.py[co]
+*.xml
 
-# temp files:
+# [3] cached files
+.mypy_cache/
+
+# [4] temp files:
 ## Excel
 ~$*.xlsx
 ## vim
 *.swp 
 
-# word, excel and office filetypes: <https://docs.microsoft.com/en-us/deployoffice/compat/office-file-format-reference>
+# [5] word, excel and office filetypes: <https://docs.microsoft.com/en-us/deployoffice/compat/office-file-format-reference>
 ## Word
 *.doc
 *.doc[mx]
 
 ## Excel
+*.xl[stw]
+*.xls[bmx]
+*.xlt[xm]
+*.rtf
+
+## PowerBI
+*.pbix 
+
+## PowerPoint
+*.pot
+*.pot[mx]
+*.pp[as]
+*.pp[as]m
+*.pps
+*.pps[mx]
+*.ppt
+*.ppt[xm]
+
+# [6] images
+*.bmp
+*.gif
+*.jpeg
+*.jpg
+*.png
+
+# [7] video and audio
+
+*.mp[43]
+*.tif
+*.tiff
+*.wmf
+*.wmv
