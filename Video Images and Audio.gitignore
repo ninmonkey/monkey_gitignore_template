@@ -1,0 +1,15 @@
+# images
+*.bmp
+*.gif
+*.jpeg
+*.jpg
+*.png
+
+# audio and video
+
+*.mp[43]
+*.ogg
+*.tif
+*.tiff
+*.wmf
+*.wmv
