@@ -1,0 +1,24 @@
+# word, excel and office filetypes: <https://docs.microsoft.com/en-us/deployoffice/compat/office-file-format-reference>
+
+## Word
+*.doc
+*.doc[mx]
+
+## Excel
+*.xl[stw]
+*.xls[bmx]
+*.xlt[xm]
+*.rtf
+
+## PowerBI
+*.pbix 
+
+## PowerPoint
+*.pot
+*.pot[mx]
+*.pp[as]
+*.pp[as]m
+*.pps
+*.pps[mx]
+*.ppt
+*.ppt[xm]
